@@ -74,7 +74,7 @@ const Form = () => {
   };
   return (
     <Box
-      sx={{ mt: "5vh", mb: "13.32vh", pl: "0.28vw" }}
+      sx={{ mt: "24px", mb: "24px", pl: "0.28vw" }}
       width={{ xs: "80%", sm: "60%", md: "50%", lg: "25vw" }}
       textAlign={{ xs: "center", lg: "left" }}
     >

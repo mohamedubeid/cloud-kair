@@ -1,7 +1,6 @@
 {
   "name": "cloud-kair",
   "version": "0.1.0",
-  "homepage": "https://mohamedubeid.github.io/cloud-kair",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",

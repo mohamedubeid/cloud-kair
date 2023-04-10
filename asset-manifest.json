@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cloud-kair/static/css/main.a6f7e5e4.css",
-    "main.js": "/cloud-kair/static/js/main.47240d74.js",
+    "main.js": "/cloud-kair/static/js/main.a42dd3d0.js",
     "index.html": "/cloud-kair/index.html",
     "main.a6f7e5e4.css.map": "/cloud-kair/static/css/main.a6f7e5e4.css.map",
-    "main.47240d74.js.map": "/cloud-kair/static/js/main.47240d74.js.map"
+    "main.a42dd3d0.js.map": "/cloud-kair/static/js/main.a42dd3d0.js.map"
   },
   "entrypoints": [
     "static/css/main.a6f7e5e4.css",
-    "static/js/main.47240d74.js"
+    "static/js/main.a42dd3d0.js"
   ]
 }

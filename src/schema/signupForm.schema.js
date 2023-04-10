@@ -32,10 +32,12 @@ export const formSchema = Joi.object({
         "Password must contain at least one special character [!@#$%^&*]",
     }),
   dateOfBirth: Joi.date().max("now").messages({
+    "any.required": "Date Of Birth is a required field",
     "date.empty": "Date of birth is required",
     "date.format": "Invalid date format",
     "date.max": "Invalid date of birth",
     "date.valid": "Date of Birth must be a valid format",
+    "date.base": "Date Of Birth must be a valid date",
   }),
   healthCareLevel: Joi.string()
     .allow(null, "")

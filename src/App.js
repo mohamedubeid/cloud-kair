@@ -1,5 +1,10 @@
+import FormPage from "./pages/FormPage";
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <>
+      <FormPage />
+    </>
+  );
 }
 
 export default App;

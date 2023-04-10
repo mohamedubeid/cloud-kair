@@ -16,7 +16,7 @@ const SelectInput = ({ name, value, onChange, onBlur, selectError }) => {
     </MenuItem>
   ));
   return (
-    <FormControl focused={false} error={selectError ? true : false}>
+    <FormControl focused={false} error={selectError ? true : false} fullWidth>
       <Select
         displayEmpty
         renderValue={(selected) => {
@@ -25,6 +25,7 @@ const SelectInput = ({ name, value, onChange, onBlur, selectError }) => {
               <Typography
                 sx={{
                   opacity: "50%",
+                  textAlign: "start",
                 }}
               >
                 Healthcare Level

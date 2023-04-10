@@ -73,9 +73,13 @@ const Form = () => {
     setOpenAlert(false);
   };
   return (
-    <Box sx={{ mt: "10.32vh", mb: "13.32vh", pl: "0.28vw" }}>
+    <Box
+      sx={{ mt: "5vh", mb: "13.32vh", pl: "0.28vw" }}
+      width={{ xs: "80%", sm: "60%", md: "50%", lg: "25vw" }}
+      textAlign={{ xs: "center", lg: "left" }}
+    >
       <img src="logo.svg" alt="logo" />
-      <Typography component="h1" sx={{ mt: "3.84vh", fontSize: "32px" }}>
+      <Typography component="h1" sx={{ mt: "3vh", fontSize: "32px" }}>
         Create An Account
       </Typography>
       <Typography
@@ -94,20 +98,16 @@ const Form = () => {
         onSubmit={handleSubmit}
         display="flex"
         flexDirection="column"
+        alignItems={{ xs: "center", lg: "start" }}
         sx={{
-          mt: "4.56vh",
+          mt: "3vh",
           "& .MuiInputBase-root": {
             marginTop: "3.84vh",
-            width: "25vw",
-            "&.css-v4u5dn-MuiInputBase-root-MuiInput-root:after ": {
-              borderColor: "#000",
-              transition: "none",
-              WebkitTransition: "none",
-            },
           },
         }}
       >
         <TextField
+          fullWidth
           variant="standard"
           placeholder="Full Name"
           type="text"
@@ -120,6 +120,7 @@ const Form = () => {
           helperText={errors?.name}
         />
         <TextField
+          fullWidth
           variant="standard"
           placeholder="Email Address"
           type="email"
@@ -153,12 +154,13 @@ const Form = () => {
           selectError={errors?.healthCareLevel}
         />
         <Button
+          fullWidth
           type="submit"
           sx={{
             mt: "7.68vh",
             color: "white",
             background: "linear-gradient(to right, #6273E5, #50F5D5)",
-            width: "25vw",
+            // width: "25vw",
             height: "5.64vh",
             fontSize: "16px",
             borderRadius: "10px",
@@ -173,7 +175,7 @@ const Form = () => {
           fontSize: "16px",
           fontWeight: "400",
           width: "100%",
-          m: "3.84vh auto 0 auto",
+          m: "2.5vh auto 0 auto",
           color: "#000",
           textTransform: "capitalize",
           "&: hover": {

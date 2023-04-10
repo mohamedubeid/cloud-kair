@@ -15,6 +15,7 @@ const DateInput = ({ name, value, onChange, onBlur, dateError }) => {
 
   return (
     <TextField
+      fullWidth
       ref={dateRef}
       onFocus={handleFocus}
       onBlur={handleBlur}

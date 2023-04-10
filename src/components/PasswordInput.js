@@ -10,6 +10,7 @@ const PasswordInput = ({ name, value, onChange, onBlur, passwordError }) => {
 
   return (
     <TextField
+      fullWidth
       placeholder="Password"
       type={showPassword ? "text" : "password"}
       InputProps={{

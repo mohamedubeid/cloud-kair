@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cloud-kair/static/css/main.a6f7e5e4.css",
+    "main.js": "/cloud-kair/static/js/main.780e9bc9.js",
+    "index.html": "/cloud-kair/index.html",
+    "main.a6f7e5e4.css.map": "/cloud-kair/static/css/main.a6f7e5e4.css.map",
+    "main.780e9bc9.js.map": "/cloud-kair/static/js/main.780e9bc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6f7e5e4.css",
+    "static/js/main.780e9bc9.js"
+  ]
+}
